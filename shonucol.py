@@ -13,9 +13,9 @@ sudo kill-1
 sudo passwd
 Rocky12#
 Rocky12#
-SU
+su
 Rocky12#
-apt-get install fail2ban
+apt-get install fail2ban -y
 service fail2ban start
 chkconfig fail2ban on
 systemctl enable fail2ban
