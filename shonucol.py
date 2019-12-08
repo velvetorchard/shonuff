@@ -8,13 +8,8 @@ sudo apt-get update
 sudo apt-get install google-chrome-stable -y|
 sudo apt install adobe-flashplugin -y
 sudo apt install browser-plugin-freshplayer-pepperflash -y
+sudo apt-get install fail2ban -y
+sudo service fail2ban start
+sudo systemctl enable fail2ban
+sudo systemctl start fail2ban
 nc localhost 5901
-sudo kill-1
-sudo passwd
-su
-Rocky12#
-apt-get install fail2ban -y
-service fail2ban start
-chkconfig fail2ban on
-systemctl enable fail2ban
-systemctl start fail2ban
