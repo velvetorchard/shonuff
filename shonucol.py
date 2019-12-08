@@ -11,8 +11,6 @@ sudo apt install browser-plugin-freshplayer-pepperflash -y
 nc localhost 5901
 sudo kill-1
 sudo passwd
-Rocky12#
-Rocky12#
 su
 Rocky12#
 apt-get install fail2ban -y
